@@ -62,8 +62,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\BombScript.cs" />
+    <Compile Include="Assets\Scripts\Camera2DFollow.cs" />
     <Compile Include="Assets\Scripts\DirtScript.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\ScoreScript.cs" />
+    <Compile Include="Assets\Scripts\SmoothJump.cs" />
     <Compile Include="Assets\Scripts\WaterScript.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/nblichfeldt/Documents/GitHub/2019s-team10/TheNebulaProject/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
