@@ -4,7 +4,7 @@ using System.Collections;
 public class PlayerController : MonoBehaviour
 {
     
-    [Range(1,10)]
+    [Range(1,25)]
     public float jumpVelocity;
     bool grounded = false;
     public float speed;
@@ -33,6 +33,7 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetButtonDown("Jump"))  //makes player jump
         {
+            //can only jump if grounded
             if (grounded) {
                 rb2d.velocity += Vector2.up*jumpVelocity;
             }
@@ -40,17 +41,21 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    //check to see if grounded
-    void OnTriggerEnter2D(Collider2D obj) {
-        if (obj.gameObject.CompareTag("Platform")) {
+    //grounded becomes true if the player collides with a platform
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Platform")) {
             grounded = true;
         }
     }
 
-
-    void OnTriggerExit2D(Collider2D obj) {
-        if (obj.gameObject.CompareTag("Platform")) {
+    //grounded becomes false when player leaves a platform
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Platform"))
+        {
             grounded = false;
         }
     }
+
 }

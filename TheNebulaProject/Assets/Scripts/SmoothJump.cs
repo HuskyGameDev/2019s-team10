@@ -13,7 +13,7 @@ public class SmoothJump : MonoBehaviour {
 	}
 
 	void Update() {
-        if (rb2d.velocity.y < 0) {
+        if (rb2d.velocity.y < 1) {
             rb2d.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier -1)*Time.deltaTime;
 
 		} else if (rb2d.velocity.y > 0 && !Input.GetButton("Jump")) {
