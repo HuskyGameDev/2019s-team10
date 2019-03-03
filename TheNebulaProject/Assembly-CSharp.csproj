@@ -64,11 +64,12 @@
     <Compile Include="Assets\Scripts\BombScript.cs" />
     <Compile Include="Assets\Scripts\Camera2DFollow.cs" />
     <Compile Include="Assets\Scripts\DirtScript.cs" />
+    <Compile Include="Assets\Scripts\Level\PlatformMover.cs" />
+    <Compile Include="Assets\Scripts\Level\SpawnPlatform.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\ScoreScript.cs" />
     <Compile Include="Assets\Scripts\SmoothJump.cs" />
-    <Compile Include="Assets\Scripts\SpawnPlatform.cs" />
     <Compile Include="Assets\Scripts\WaterScript.cs" />
     <None Include="Assets\Menu stuff\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Menu stuff\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />

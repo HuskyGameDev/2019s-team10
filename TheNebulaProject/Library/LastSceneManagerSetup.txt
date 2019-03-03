@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/PlatformGenerationTest.unity
+- path: Assets/Scenes/MovingPlatformTesting.unity
   isLoaded: 1
   isActive: 1
