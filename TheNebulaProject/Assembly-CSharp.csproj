@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{0171F16B-3F31-A5AA-006D-C08DEFA00C04}</ProjectGuid>
+    <ProjectGuid>{5D0E7AC8-EE2D-D07E-3B34-83B0BD458B72}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -250,16 +250,16 @@
     <None Include="Assets\Menu stuff\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\Menu stuff\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/scalvert/Documents/GitHub/2019s-team10/TheNebulaProject_WwiseIntegrationTemp/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/scalvert/Documents/GitHub/2019s-team10/TheNebulaProject/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/scalvert/Documents/GitHub/2019s-team10/TheNebulaProject_WwiseIntegrationTemp/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/scalvert/Documents/GitHub/2019s-team10/TheNebulaProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/scalvert/Documents/GitHub/2019s-team10/TheNebulaProject_WwiseIntegrationTemp/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/scalvert/Documents/GitHub/2019s-team10/TheNebulaProject/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/scalvert/Documents/GitHub/2019s-team10/TheNebulaProject_WwiseIntegrationTemp/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/scalvert/Documents/GitHub/2019s-team10/TheNebulaProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

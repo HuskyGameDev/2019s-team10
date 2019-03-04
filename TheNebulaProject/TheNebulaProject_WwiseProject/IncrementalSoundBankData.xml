@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncrementalBankBuild Version="6" Flags="878078161">
+	<Platform GUID="{D165737A-A0F9-488D-88D8-1A7A7B577F7B}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Init" Hash="403170349" Timestamp="1551658087"/>
+				<File Name="Nebula_Project" Hash="20296188" Timestamp="1551658087"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="4075973803" Timestamp="1551658087"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+	<Platform GUID="{65724ED7-9A46-4CCF-8286-96A4DCDB2B83}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Init" Hash="3720209211" Timestamp="1551658087"/>
+				<File Name="Nebula_Project" Hash="20296188" Timestamp="1551658087"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="2717288269" Timestamp="1551658087"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+</IncrementalBankBuild>

@@ -3,6 +3,10 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{0AF41605-DAF3-4951-9F42-4787B8CA14D9}">
 			<PropertyList>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\scalvert\Downloads"/>
+				<Property Name="Event Action List\{4D305E0C-2452-41AA-8783-E403B0179089}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{65E850A3-DAA6-474F-B082-6F8516758497}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{BBD02A4E-9111-4518-A799-DB68F672B82D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
@@ -18,6 +22,9 @@
 				</Property>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
 				<Property Name="General\LatestPlatform" Type="string" Value="Mac"/>
+				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="105yZUaaz0yChpak3Nsrg3pzZdH5oI1IiNgaentXf3s="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="8d8KiVOmAEuZz2zu0TwU5A=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
 				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="AHgyilHVrUiZejpgh8YGdwH/////////3LrRS62ziEmTUXHGAQ96ZwH/////////"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>

@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{87E430FF-A2EA-470E-9D6A-99C400596A12}" SchemaVersion="85">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{87E430FF-A2EA-470E-9D6A-99C400596A12}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{87E430FF-A2EA-470E-9D6A-99C400596A12}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Nebula_Project" ID="{890ADFF1-A653-4B00-99CF-6CEED13C14E4}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Planet_Jumping" ID="{4D305E0C-2452-41AA-8783-E403B0179089}" WorkUnitID="{448B20E3-AD75-483E-ABDD-2CAD1E7F8E5C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Planet_Exploding" ID="{BBD02A4E-9111-4518-A799-DB68F672B82D}" WorkUnitID="{448B20E3-AD75-483E-ABDD-2CAD1E7F8E5C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Planet_Over_Object" ID="{65E850A3-DAA6-474F-B082-6F8516758497}" WorkUnitID="{448B20E3-AD75-483E-ABDD-2CAD1E7F8E5C}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

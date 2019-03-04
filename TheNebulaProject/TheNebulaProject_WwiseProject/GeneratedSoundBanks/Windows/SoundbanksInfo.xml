@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
+	<RootPaths>
+		<ProjectRoot>C:\Users\scalvert\Documents\GitHub\2019s-team10\TheNebulaProject\TheNebulaProject_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\scalvert\Documents\GitHub\2019s-team10\TheNebulaProject\TheNebulaProject_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\scalvert\Documents\GitHub\2019s-team10\TheNebulaProject\TheNebulaProject_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\scalvert\Documents\GitHub\2019s-team10\TheNebulaProject\TheNebulaProject_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1851178282" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Nebula_Project</ObjectPath>
+			<ShortName>Nebula_Project</ShortName>
+			<Path>Nebula_Project.bnk</Path>
+			<IncludedEvents>
+				<Event Id="785477600" Name="Planet_Exploding" ObjectPath="\Events\Default Work Unit\Planet SFX\Planet_Exploding"/>
+				<Event Id="123582242" Name="Planet_Jumping" ObjectPath="\Events\Default Work Unit\Planet SFX\Planet_Jumping"/>
+				<Event Id="2617672262" Name="Planet_Over_Object" ObjectPath="\Events\Default Work Unit\Planet SFX\Planet_Over_Object"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="644782588" Language="SFX">
+					<ShortName>Bomb Explosion.wav</ShortName>
+					<Path>SFX\Bomb Explosion_1C9C67B2.wem</Path>
+				</File>
+				<File Id="889417799" Language="SFX">
+					<ShortName>Water Jet.wav</ShortName>
+					<Path>SFX\Water Jet_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1039854775" Language="SFX">
+					<ShortName>Planet Rolling Over Item SFX.wav</ShortName>
+					<Path>SFX\Planet Rolling Over Item SFX_1C9C67B2_600C958E.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

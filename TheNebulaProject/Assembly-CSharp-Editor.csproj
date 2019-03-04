@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{E632CB5C-F0D5-232B-27A4-C914C1B95823}</ProjectGuid>
+    <ProjectGuid>{8E490FBE-46F2-0668-13C4-F40EF6D4D8A6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -117,16 +117,16 @@
     <Compile Include="Assets\Wwise\Editor\WwiseWindows\TreeViewControl\TreeViewControl.cs" />
     <Compile Include="Assets\Wwise\Editor\WwiseWindows\TreeViewControl\TreeViewItem.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/scalvert/Documents/GitHub/2019s-team10/TheNebulaProject_WwiseIntegrationTemp/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/scalvert/Documents/GitHub/2019s-team10/TheNebulaProject/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/scalvert/Documents/GitHub/2019s-team10/TheNebulaProject_WwiseIntegrationTemp/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/scalvert/Documents/GitHub/2019s-team10/TheNebulaProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/scalvert/Documents/GitHub/2019s-team10/TheNebulaProject_WwiseIntegrationTemp/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/scalvert/Documents/GitHub/2019s-team10/TheNebulaProject/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/scalvert/Documents/GitHub/2019s-team10/TheNebulaProject_WwiseIntegrationTemp/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/scalvert/Documents/GitHub/2019s-team10/TheNebulaProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -437,7 +437,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{0171F16B-3F31-A5AA-006D-C08DEFA00C04}</Project>
+      <Project>{5D0E7AC8-EE2D-D07E-3B34-83B0BD458B72}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>
