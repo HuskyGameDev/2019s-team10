@@ -3,13 +3,17 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
-    
+    //controls speed/scaling of movement
     [Range(1,25)]
     public float jumpVelocity;
-    bool grounded = false;
     public float speed;
+
+    //rb2d of the player
     private Rigidbody2D rb2d;
-    
+
+    //jump object and grounded condition
+    public GameObject Jet;
+    bool grounded = false;
 
     // Use this for initialization
     void Start()
@@ -35,11 +39,20 @@ public class PlayerController : MonoBehaviour
         {
             //can only jump if grounded
             if (grounded) {
+                GameObject j = Instantiate(Jet) as GameObject;
+                j.transform.position = rb2d.transform.position;
                 rb2d.velocity += Vector2.up*jumpVelocity;
+                StartCoroutine(JumpAnimation(j));
             }
         }
 
     }
+
+    //destroy water jet after animation finishes
+    private IEnumerator JumpAnimation(GameObject j) {
+        yield return new WaitForSeconds (0.5f);
+        Destroy (j);
+     }
 
     //grounded becomes true if the player collides with a platform
     private void OnCollisionEnter2D(Collision2D collision)
