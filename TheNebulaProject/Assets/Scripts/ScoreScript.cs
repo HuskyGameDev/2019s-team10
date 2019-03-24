@@ -1,22 +1,30 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class ScoreScript : MonoBehaviour {
-    public int water_max = 1;
-    public int dirt_max = 1;
+    public GameObject Player;
+    public Slider LevelProgression;
+    public Slider WaterTracker;
+    public Slider DirtTracker;
+    public int water_max;
+    public int dirt_max;
     private int water_score = 0;
     private int dirt_score = 0;
+    
 
 	// Use this for initialization
 	void Start () {
-		
+        WaterTracker.maxValue = water_max;
+        DirtTracker.maxValue = dirt_max;
 	}
 	
 	// Update is called once per frame
 	void Update () {
         Debug.Log("Water score: " + water_score +
                   "\nDirt score: " + dirt_score);
+        LevelProgression.normalizedValue = Player.transform.position.x;
 	}
 
     // Update the water score
@@ -29,7 +37,7 @@ public class ScoreScript : MonoBehaviour {
             water_score = 0;
         }
 
-        
+        WaterTracker.value = water_score;
     }
 
     public void updateDirtScore(int update)
@@ -40,5 +48,7 @@ public class ScoreScript : MonoBehaviour {
         {
             dirt_score = 0;
         }
+
+        DirtTracker.value = dirt_score;
     }
 }
