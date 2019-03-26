@@ -28,8 +28,8 @@ MonoBehaviour:
     List: []
   BankWwu:
   - Guid: '{87E430FF-A2EA-470E-9D6A-99C400596A12}'
-    m_lastTimePart2: -1999200203
-    m_lastTimePsrt1: -603447383
+    m_lastTimePart2: -1999195588
+    m_lastTimePsrt1: -533262208
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List:
@@ -48,11 +48,25 @@ MonoBehaviour:
   defaultPoolSize: 4096
   EventWwu:
   - Guid: '{448B20E3-AD75-483E-ABDD-2CAD1E7F8E5C}'
-    m_lastTimePart2: -1999200203
-    m_lastTimePsrt1: -603357576
+    m_lastTimePart2: -1999195588
+    m_lastTimePsrt1: -533113569
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
     List:
+    - Guid: c479e42c275f454987a34f73c78c70ea
+      ID: -239400236
+      Name: Menu_Music
+      Path: Default Work Unit\Music\Menu_Music
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 4
+      - ElementName: Menu_Music
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - Guid: 4e2ad0bb11911845a799db68f672b82d
       ID: 785477600
       Name: Planet_Exploding
@@ -95,7 +109,10 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
-  ExpandedItems: []
+  ExpandedItems:
+  - /TheNebulaProject_WwiseProject
+  - /TheNebulaProject_WwiseProject/Events
+  - /TheNebulaProject_WwiseProject/Events/Default Work Unit
   language: English(US)
   lowerPoolSize: 2048
   m_lastPopulateTimePart2: 0
