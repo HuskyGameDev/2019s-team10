@@ -21,11 +21,16 @@
 			<ShortName>Nebula_Project</ShortName>
 			<Path>Nebula_Project.bnk</Path>
 			<IncludedEvents>
+				<Event Id="4055567060" Name="Menu_Music" ObjectPath="\Events\Default Work Unit\Music\Menu_Music"/>
 				<Event Id="785477600" Name="Planet_Exploding" ObjectPath="\Events\Default Work Unit\Planet SFX\Planet_Exploding"/>
 				<Event Id="123582242" Name="Planet_Jumping" ObjectPath="\Events\Default Work Unit\Planet SFX\Planet_Jumping"/>
 				<Event Id="2617672262" Name="Planet_Over_Object" ObjectPath="\Events\Default Work Unit\Planet SFX\Planet_Over_Object"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="392835460" Language="SFX">
+					<ShortName>Main Menu.wav</ShortName>
+					<Path>SFX\Main Menu_1C9C67B2.wem</Path>
+				</File>
 				<File Id="644782588" Language="SFX">
 					<ShortName>Bomb Explosion.wav</ShortName>
 					<Path>SFX\Bomb Explosion_1C9C67B2.wem</Path>

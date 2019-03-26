@@ -2,8 +2,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	123582242	Planet_Jumping			\Default Work Unit\Planet SFX\Planet_Jumping	
 	785477600	Planet_Exploding			\Default Work Unit\Planet SFX\Planet_Exploding	
 	2617672262	Planet_Over_Object			\Default Work Unit\Planet SFX\Planet_Over_Object	
+	4055567060	Menu_Music			\Default Work Unit\Music\Menu_Music	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	392835460	Main Menu Music	C:\Users\scalvert\Documents\GitHub\2019s-team10\TheNebulaProject\TheNebulaProject_WwiseProject\.cache\Mac\SFX\Main Menu_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Main Menu Music		8387696
 	644782588	Bomb_Explosion	C:\Users\scalvert\Documents\GitHub\2019s-team10\TheNebulaProject\TheNebulaProject_WwiseProject\.cache\Mac\SFX\Bomb Explosion_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player SFX\Bomb_Explosion		1073244
 	889417799	Water_Jet	C:\Users\scalvert\Documents\GitHub\2019s-team10\TheNebulaProject\TheNebulaProject_WwiseProject\.cache\Mac\SFX\Water Jet_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player SFX\Water_Jet		523376
 	1039854775	Rolling_Over_Object	C:\Users\scalvert\Documents\GitHub\2019s-team10\TheNebulaProject\TheNebulaProject_WwiseProject\.cache\Mac\SFX\Planet Rolling Over Item SFX_1C9C67B2_600C958E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player SFX\Rolling_Over_Object		1585296

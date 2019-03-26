@@ -49,6 +49,24 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Music" ID="{D7B13682-F000-4FCF-87E2-DB6C2C5F4FF7}" ShortID="661611762">
+					<ChildrenList>
+						<Event Name="Menu_Music" ID="{2CE479C4-5F27-4945-87A3-4F73C78C70EA}">
+							<ChildrenList>
+								<Action Name="" ID="{18FBF650-2817-4D18-B141-06C82C38B2D8}" ShortID="962493308">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Main Menu Music" ID="{47AAA034-A146-4609-BA44-306643BC1A4B}" WorkUnitID="{3E5CD399-F519-4AF9-9AEF-5673AD6244B6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

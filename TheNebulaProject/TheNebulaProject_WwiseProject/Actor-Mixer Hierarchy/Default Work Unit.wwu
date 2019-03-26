@@ -79,6 +79,29 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Music" ID="{2E7DD916-4ED5-4696-B8ED-17E089C85F38}" ShortID="245346319">
+					<ChildrenList>
+						<Sound Name="Main Menu Music" ID="{47AAA034-A146-4609-BA44-306643BC1A4B}" ShortID="932090972">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6C11D6D7-678F-427B-83E5-501BED372332}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA893B0E-1C5C-480E-974C-C101E1A5755C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Main Menu" ID="{CAC3DDBB-CFF6-461D-9140-A6FE344C89C1}" ShortID="392835460">
+									<Language>SFX</Language>
+									<AudioFile>Main Menu.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Main Menu" ID="{CAC3DDBB-CFF6-461D-9140-A6FE344C89C1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

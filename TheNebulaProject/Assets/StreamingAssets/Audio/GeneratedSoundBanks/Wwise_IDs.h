@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID MENU_MUSIC = 4055567060U;
         static const AkUniqueID PLANET_EXPLODING = 785477600U;
         static const AkUniqueID PLANET_JUMPING = 123582242U;
         static const AkUniqueID PLANET_OVER_OBJECT = 2617672262U;
