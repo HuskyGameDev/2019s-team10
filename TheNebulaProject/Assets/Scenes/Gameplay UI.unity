@@ -1319,7 +1319,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1928605741}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.0103936, y: 4.9692574, z: -10.105629}
+  m_LocalPosition: {x: -6.88, y: 0.26, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1402,6 +1402,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2012188469 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1839852300938834, guid: 8de063c5d7112404ebf0a2b91082e46a,
+    type: 2}
+  m_PrefabInternal: {fileID: 1857690580}
 --- !u!1 &2053534698
 GameObject:
   m_ObjectHideFlags: 0
@@ -1432,6 +1437,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b44da0da0903b5d4b849d74762047e29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LevelStart: {fileID: 1928605741}
+  LevelEnd: {fileID: 2090095740}
+  Player: {fileID: 2012188469}
   LevelProgression: {fileID: 1831126160}
   WaterTracker: {fileID: 1325720011}
   DirtTracker: {fileID: 735674191}
@@ -1537,7 +1545,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2090095740}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.0103936, y: 4.9692574, z: -10.105629}
+  m_LocalPosition: {x: 6.89, y: -0.02, z: -10.105629}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
