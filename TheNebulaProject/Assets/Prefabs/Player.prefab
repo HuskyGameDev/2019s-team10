@@ -92,6 +92,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpVelocity: 10
   speed: 5
+  Jet: {fileID: 1648504867041968, guid: 2f44a7d280d85354f8afc85e296d7f2f, type: 2}
 --- !u!114 &114142196955020358
 MonoBehaviour:
   m_ObjectHideFlags: 1

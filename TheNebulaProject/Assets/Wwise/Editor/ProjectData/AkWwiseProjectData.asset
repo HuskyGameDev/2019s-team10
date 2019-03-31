@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72eb5aecb096a3741aed86ad04943fa0, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - Guid: '{825822FD-BD3B-4407-91E6-8D5689B6268B}'
+    m_lastTimePart2: -1999200207
+    m_lastTimePsrt1: 1342411842
+    ParentPhysicalPath: 
+    PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    List: []
+  autoPopulateEnabled: 1
+  AuxBusWwu:
+  - Guid: '{BA893B0E-1C5C-480E-974C-C101E1A5755C}'
+    m_lastTimePart2: -1999200207
+    m_lastTimePsrt1: 1341502360
+    ParentPhysicalPath: 
+    PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    List: []
+  BankWwu:
+  - Guid: '{87E430FF-A2EA-470E-9D6A-99C400596A12}'
+    m_lastTimePart2: -1999195588
+    m_lastTimePsrt1: -533262208
+    ParentPhysicalPath: 
+    PhysicalPath: SoundBanks\Default Work Unit.wwu
+    List:
+    - Guid: f1df0a8953a6004b99cf6ceed13c14e4
+      ID: 1851178282
+      Name: Nebula_Project
+      Path: Default Work Unit\Nebula_Project
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Nebula_Project
+        ObjectType: 7
+  basePath: Audio\GeneratedSoundBanks
+  callbackManagerBufferSize: 4
+  CurrentPluginConfig: 
+  defaultPoolSize: 4096
+  EventWwu:
+  - Guid: '{448B20E3-AD75-483E-ABDD-2CAD1E7F8E5C}'
+    m_lastTimePart2: -1999195588
+    m_lastTimePsrt1: -533113569
+    ParentPhysicalPath: 
+    PhysicalPath: Events\Default Work Unit.wwu
+    List:
+    - Guid: c479e42c275f454987a34f73c78c70ea
+      ID: -239400236
+      Name: Menu_Music
+      Path: Default Work Unit\Music\Menu_Music
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 4
+      - ElementName: Menu_Music
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 4e2ad0bb11911845a799db68f672b82d
+      ID: 785477600
+      Name: Planet_Exploding
+      Path: Default Work Unit\Planet SFX\Planet_Exploding
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Planet SFX
+        ObjectType: 4
+      - ElementName: Planet_Exploding
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 0c5e304d5224aa418783e403b0179089
+      ID: 123582242
+      Name: Planet_Jumping
+      Path: Default Work Unit\Planet SFX\Planet_Jumping
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Planet SFX
+        ObjectType: 4
+      - ElementName: Planet_Jumping
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: a350e865a6da4f47b0826f8516758497
+      ID: -1677295034
+      Name: Planet_Over_Object
+      Path: Default Work Unit\Planet SFX\Planet_Over_Object
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Planet SFX
+        ObjectType: 4
+      - ElementName: Planet_Over_Object
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  ExpandedItems:
+  - /TheNebulaProject_WwiseProject
+  - /TheNebulaProject_WwiseProject/Events
+  - /TheNebulaProject_WwiseProject/Events/Default Work Unit
+  language: English(US)
+  lowerPoolSize: 2048
+  m_lastPopulateTimePart2: 0
+  m_lastPopulateTimePsrt1: 0
+  memoryCutoffThreshold: 0.95
+  preparePoolSize: 0
+  RtpcWwu:
+  - Guid: '{6534EFBD-9910-4614-A517-CE4688BD4175}'
+    m_lastTimePart2: -1999200207
+    m_lastTimePsrt1: 1341362448
+    ParentPhysicalPath: 
+    PhysicalPath: Game Parameters\Default Work Unit.wwu
+    List: []
+  StateWwu:
+  - Guid: '{E3064260-84D4-43C1-B4E6-0899C85ABF9B}'
+    m_lastTimePart2: -1999200207
+    m_lastTimePsrt1: 1342211957
+    ParentPhysicalPath: 
+    PhysicalPath: States\Default Work Unit.wwu
+    List: []
+  streamingPoolSize: 1024
+  SwitchWwu:
+  - Guid: '{492EF3C4-660F-405B-9A73-0785A2993A77}'
+    m_lastTimePart2: -1999200207
+    m_lastTimePsrt1: 1342281919
+    ParentPhysicalPath: 
+    PhysicalPath: Switches\Default Work Unit.wwu
+    List: []
+  TriggerWwu:
+  - Guid: '{9BDA6ABC-9B81-4F83-939F-E4EBC2E1B6F6}'
+    m_lastTimePart2: -1999200207
+    m_lastTimePsrt1: 1342341888
+    ParentPhysicalPath: 
+    PhysicalPath: Triggers\Default Work Unit.wwu
+    List: []
