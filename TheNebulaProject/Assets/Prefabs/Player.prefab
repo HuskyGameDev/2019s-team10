@@ -90,9 +90,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10fd14eb146b8cd40a54f35503d142bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpVelocity: 10
+  jumpVelocity: 8.5
   speed: 5
   Jet: {fileID: 1648504867041968, guid: 2f44a7d280d85354f8afc85e296d7f2f, type: 2}
+  platformGenerator: {fileID: 0}
+  iFrameLength: 2
 --- !u!114 &114142196955020358
 MonoBehaviour:
   m_ObjectHideFlags: 1
