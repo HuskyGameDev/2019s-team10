@@ -14,17 +14,18 @@ public class BGScroller : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (isMoving() > 0)
-        {
-            transform.Translate((new Vector3(-1, 0, 0)) * speed * Time.deltaTime);
-        } else if(isMoving() == 0)
-        {
-            transform.Translate((new Vector3(0, 0, 0)) * speed * Time.deltaTime);
-        }
-        else
-        {
-            transform.Translate((new Vector3(1, 0, 0)) * speed * Time.deltaTime);
-        }
+        transform.Translate((new Vector3(-1, 0, 0)) * speed * Time.deltaTime);
+        //if (isMoving() > 0)
+        //{
+        //    transform.Translate((new Vector3(-1, 0, 0)) * speed * Time.deltaTime);
+        //} else if(isMoving() == 0)
+        //{
+        //    transform.Translate((new Vector3(0, 0, 0)) * speed * Time.deltaTime);
+        //}
+        //else
+        //{
+        //    transform.Translate((new Vector3(1, 0, 0)) * speed * Time.deltaTime);
+        //}
 
         if (transform.position.x < -20.88 || transform.position.x > 27.1)
         {
