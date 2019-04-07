@@ -10,6 +10,8 @@ public class ScoreScript : MonoBehaviour {
     public Slider LevelProgression;
     public Slider WaterTracker;
     public Slider DirtTracker;
+    public Text water_text;
+    public Text dirt_text;
     public int water_max;
     public int dirt_max;
     private int water_score = 0;
@@ -25,8 +27,6 @@ public class ScoreScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        Debug.Log("Water score: " + water_score +
-                  "\nDirt score: " + dirt_score);
         LevelProgression.value = Player.transform.position.x - LevelStart.transform.position.x;
 	}
 
@@ -41,6 +41,7 @@ public class ScoreScript : MonoBehaviour {
         }
 
         WaterTracker.value = water_score;
+        water_text.GetComponent<Text>().text = water_score + " / " + water_max;
     }
 
     public void updateDirtScore(int update)
@@ -53,5 +54,6 @@ public class ScoreScript : MonoBehaviour {
         }
 
         DirtTracker.value = dirt_score;
+        dirt_text.GetComponent<Text>().text = dirt_score + " / " + dirt_max;
     }
 }
