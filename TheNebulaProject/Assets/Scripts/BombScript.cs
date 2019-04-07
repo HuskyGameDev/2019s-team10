@@ -26,6 +26,7 @@ public class BombScript : MonoBehaviour {
             GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0f);
 
             GameObject b = Instantiate(bam) as GameObject;
+            b.transform.parent = gameObject.transform;
             b.transform.position = gameObject.transform.position;
             StartCoroutine(BamAnimation(b));
 
@@ -38,7 +39,6 @@ public class BombScript : MonoBehaviour {
     private IEnumerator BamAnimation(GameObject b)
     {
         yield return new WaitForSeconds(0.3f);
-        Destroy(b);
         Destroy(gameObject);
     }
 
