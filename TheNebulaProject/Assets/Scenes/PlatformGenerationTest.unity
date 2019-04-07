@@ -152,6 +152,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114085546363422026, guid: 8de063c5d7112404ebf0a2b91082e46a,
+        type: 2}
+      propertyPath: platformGenerator
+      value: 
+      objectReference: {fileID: 706255270}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8de063c5d7112404ebf0a2b91082e46a, type: 2}
   m_IsPrefabAsset: 0
@@ -274,7 +279,7 @@ GameObject:
   - component: {fileID: 1131667510}
   m_Layer: 0
   m_Name: Ground
-  m_TagString: Platform
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
