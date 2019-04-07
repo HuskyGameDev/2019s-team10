@@ -1,0 +1,2 @@
+C:\Users\nblichfeldt\Documents\GitHub\2019s-team10\TheNebulaProject\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\nblichfeldt\Documents\GitHub\2019s-team10\TheNebulaProject\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache

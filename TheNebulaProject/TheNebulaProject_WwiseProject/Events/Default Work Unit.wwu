@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{448B20E3-AD75-483E-ABDD-2CAD1E7F8E5C}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{448B20E3-AD75-483E-ABDD-2CAD1E7F8E5C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Planet SFX" ID="{8FF3C6B2-2380-4088-82C4-AB1779A03453}" ShortID="756923793">
+					<ChildrenList>
+						<Event Name="Planet_Jumping" ID="{4D305E0C-2452-41AA-8783-E403B0179089}">
+							<ChildrenList>
+								<Action Name="" ID="{06FC0914-DF54-4EEC-A8ED-744B37D74DD1}" ShortID="903287191">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Water_Jet" ID="{90946AAD-20BF-48EA-8DF7-FD18FEE44BDF}" WorkUnitID="{3E5CD399-F519-4AF9-9AEF-5673AD6244B6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Planet_Over_Object" ID="{65E850A3-DAA6-474F-B082-6F8516758497}">
+							<ChildrenList>
+								<Action Name="" ID="{3E3A09BD-C5CA-44A9-A1C3-E2CB8EDC47E9}" ShortID="780232034">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rolling_Over_Object" ID="{D404A58E-432C-4574-A8FB-B112159CF0C9}" WorkUnitID="{3E5CD399-F519-4AF9-9AEF-5673AD6244B6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Planet_Exploding" ID="{BBD02A4E-9111-4518-A799-DB68F672B82D}">
+							<ChildrenList>
+								<Action Name="" ID="{3EDF940F-2788-45BE-AD6E-B0CD526D7255}" ShortID="261323589">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bomb_Explosion" ID="{4DE55CA0-FA2E-443D-B10D-E0FB10806E8F}" WorkUnitID="{3E5CD399-F519-4AF9-9AEF-5673AD6244B6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music" ID="{D7B13682-F000-4FCF-87E2-DB6C2C5F4FF7}" ShortID="661611762">
+					<ChildrenList>
+						<Event Name="Menu_Music" ID="{2CE479C4-5F27-4945-87A3-4F73C78C70EA}">
+							<ChildrenList>
+								<Action Name="" ID="{18FBF650-2817-4D18-B141-06C82C38B2D8}" ShortID="962493308">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Main Menu Music" ID="{47AAA034-A146-4609-BA44-306643BC1A4B}" WorkUnitID="{3E5CD399-F519-4AF9-9AEF-5673AD6244B6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
