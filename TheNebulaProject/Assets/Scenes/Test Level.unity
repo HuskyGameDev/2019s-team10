@@ -577,6 +577,10 @@ Prefab:
       propertyPath: speed
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 1839852300938834, guid: 8de063c5d7112404ebf0a2b91082e46a, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8de063c5d7112404ebf0a2b91082e46a, type: 2}
   m_IsPrefabAsset: 0
@@ -591,9 +595,9 @@ GameObject:
   - component: {fileID: 1858569247}
   - component: {fileID: 1858569246}
   - component: {fileID: 1858569249}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: '"bomb"'
-  m_TagString: Untagged
+  m_TagString: Bomb
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
