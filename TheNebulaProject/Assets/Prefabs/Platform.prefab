@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4730087080874550}
   - component: {fileID: 212516002918994732}
   - component: {fileID: 61974481459611622}
+  - component: {fileID: 114742628819721522}
   m_Layer: 0
   m_Name: Platform
   m_TagString: Platform
@@ -49,7 +50,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1313894910805402}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 0338406c78dde864ab38e24a44afc8de, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -66,6 +67,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.39, y: 0.35}
   m_EdgeRadius: 0
+--- !u!114 &114742628819721522
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1313894910805402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 199558ec3e6f1c145a07324b6413b05f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212516002918994732
 SpriteRenderer:
   m_ObjectHideFlags: 1

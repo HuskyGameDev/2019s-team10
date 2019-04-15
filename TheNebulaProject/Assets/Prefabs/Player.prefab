@@ -20,11 +20,12 @@ GameObject:
   m_Component:
   - component: {fileID: 4973148319771036}
   - component: {fileID: 212464711385615102}
-  - component: {fileID: 58703829512381822}
   - component: {fileID: 50812206372762058}
+  - component: {fileID: 58703829512381822}
   - component: {fileID: 114142196955020358}
   - component: {fileID: 114085546363422026}
-  m_Layer: 0
+  - component: {fileID: 95342565263022358}
+  m_Layer: 8
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -79,6 +80,24 @@ CircleCollider2D:
   m_Offset: {x: -0.008015275, y: -0.06802231}
   serializedVersion: 2
   m_Radius: 0.70543206
+--- !u!95 &95342565263022358
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1839852300938834}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e14a0f44f6db9424ba34b15cd62f6987, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114085546363422026
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -94,7 +113,7 @@ MonoBehaviour:
   speed: 5
   Jet: {fileID: 1648504867041968, guid: 2f44a7d280d85354f8afc85e296d7f2f, type: 2}
   platformGenerator: {fileID: 0}
-  iFrameLength: 2
+  iFrameLength: 3
 --- !u!114 &114142196955020358
 MonoBehaviour:
   m_ObjectHideFlags: 1

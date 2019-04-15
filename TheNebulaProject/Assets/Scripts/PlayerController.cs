@@ -9,8 +9,9 @@ public class PlayerController : MonoBehaviour
     public float jumpVelocity;
     public float speed;
 
-    //rb2d of the player
+    //player attributes
     private Rigidbody2D rb2d;
+    private float rad;
 
     //jump object and grounded condition
     public GameObject Jet;
@@ -29,10 +30,14 @@ public class PlayerController : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        //Get and store a reference to the Rigidbody2D component so that we can access it.
+        //Get and store references to the Rigidbody2D component, Animator component, and radius for reference.
         rb2d = GetComponent<Rigidbody2D>();
-        platSpd = platformGenerator.GetComponent<SpawnPlatform>().platform.GetComponent<PlatformMover>().moveSpeed;
+        rad = GetComponent<CircleCollider2D>().radius;
         anim = GetComponent<Animator>();
+
+        //get speed of platforms generated in level
+        platSpd = platformGenerator.GetComponent<SpawnPlatform>().platform.GetComponent<PlatformMover>().moveSpeed;
+        
     }
 
     //FixedUpdate is called at a fixed interval and is independent of frame rate. Put physics code here.
@@ -41,15 +46,17 @@ public class PlayerController : MonoBehaviour
         //Store the current horizontal input in the float moveHorizontal.
         float moveHorizontal = Input.GetAxis("Horizontal");
         rb2d.velocity = (rb2d.velocity * Vector2.up) + (new Vector2(moveHorizontal, 0) * speed) - (new Vector2(appliedSpeed,0));
-        
+
         //makes player jump
-        if (Input.GetButtonDown("Jump") && (gameObject.transform.position.y-gameObject.GetComponent<CircleCollider2D>().radius > platPos.y))  
+        if (Input.GetKeyDown("space") && (gameObject.transform.position.y - rad) > platPos.y)
         {
+            Debug.Log(grounded);
             //can only jump if grounded
-            if (grounded) {
+            if (grounded)
+            {
                 GameObject j = Instantiate(Jet) as GameObject;
                 j.transform.position = rb2d.transform.position;
-                rb2d.velocity += Vector2.up*jumpVelocity;
+                rb2d.velocity += Vector2.up * jumpVelocity;
                 StartCoroutine(JumpAnimation(j));
             }
         }
@@ -75,7 +82,7 @@ public class PlayerController : MonoBehaviour
         if ((p.CompareTag("Platform") || p.CompareTag("Ground")) && platPos.y < gameObject.transform.position.y) {
             grounded = true;
             if (p.CompareTag("Platform")) {
-                appliedSpeed = platSpd;
+                //appliedSpeed = platSpd;
             }
             else {
                 appliedSpeed = 0;
@@ -86,6 +93,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    //ignore collisions with bombs for the given time, enable blinking animation for duration of "immunity"
     IEnumerator damagedBlinker(float time) {
         //ignore collisions with hazards
         int enemyLayer = LayerMask.NameToLayer("Enemy");
@@ -94,10 +102,11 @@ public class PlayerController : MonoBehaviour
 
         //Start blinking animation
         anim.SetLayerWeight(1, 1);
-        Debug.Log("its trying,but failing");
+
+        //wait
         yield return new WaitForSeconds(time);
 
-        //stop animation and enable collisions
+        //enable collisions and stop animation
         Physics2D.IgnoreLayerCollision(enemyLayer, playerLayer, false);
         anim.SetLayerWeight(1, 0);
     }

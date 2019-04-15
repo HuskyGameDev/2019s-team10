@@ -28,7 +28,6 @@ public class SpawnPlatform : MonoBehaviour {
         Transform loc = spawnLocations[determineLocation()];
         
         int c = determineConsumable();
-        Debug.Log("Consumable: " + c);
         if (c != 3)
         {
             GameObject cons = Instantiate(consumables[c]) as GameObject;
