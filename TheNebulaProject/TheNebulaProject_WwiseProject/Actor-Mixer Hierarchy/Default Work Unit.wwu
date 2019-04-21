@@ -77,6 +77,25 @@
 								<ActiveSource Name="Bomb Explosion" ID="{3957E2BE-C614-48F9-9249-4A92EBDBC64F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Beam Womp" ID="{EB2FAB2A-CF6C-4F82-A323-350C1AC93DCC}" ShortID="105859543">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6C11D6D7-678F-427B-83E5-501BED372332}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA893B0E-1C5C-480E-974C-C101E1A5755C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Beam Womp Initial" ID="{FF47F03E-A998-4F95-A543-AC9574B3E06C}" ShortID="1034132203">
+									<Language>SFX</Language>
+									<AudioFile>Beam Womp Initial.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Beam Womp Initial" ID="{FF47F03E-A998-4F95-A543-AC9574B3E06C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music" ID="{2E7DD916-4ED5-4696-B8ED-17E089C85F38}" ShortID="245346319">

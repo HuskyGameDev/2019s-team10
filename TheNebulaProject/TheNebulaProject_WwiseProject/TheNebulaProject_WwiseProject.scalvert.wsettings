@@ -5,6 +5,7 @@
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\scalvert\Downloads"/>
 				<Property Name="Event Action List\{2644E86F-6602-4F34-A61C-82217404E342}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{2CE479C4-5F27-4945-87A3-4F73C78C70EA}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4D305E0C-2452-41AA-8783-E403B0179089}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{65E850A3-DAA6-474F-B082-6F8516758497}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{BBD02A4E-9111-4518-A799-DB68F672B82D}\x64_Expand States" Type="string" Value=""/>
@@ -55,8 +56,8 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="gExOBzIScUiPu7eLk9Y8NZnTXD4Z9flKmu9Wc61iRLY="/>
-				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="4yCLRHWtPkir3SytHn+OXA=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="Ftl9LtVOlka47RfgichfOJnTXD4Z9flKmu9Wc61iRLY="/>
+				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="4yCLRHWtPkir3SytHn+OXII2sdcA8M9Ph+LbbCxfT/c="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value="/zDkh+qiDkedapnEAFlqEg=="/>

@@ -47,6 +47,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Space_Craft_Beam" ID="{1D02A8A3-2561-4D1F-9336-7E92088CA4F4}">
+							<ChildrenList>
+								<Action Name="" ID="{FF43A8E4-8A49-457F-9671-D1A3AE185356}" ShortID="491621737">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Beam Womp" ID="{EB2FAB2A-CF6C-4F82-A323-350C1AC93DCC}" WorkUnitID="{3E5CD399-F519-4AF9-9AEF-5673AD6244B6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music" ID="{D7B13682-F000-4FCF-87E2-DB6C2C5F4FF7}" ShortID="661611762">

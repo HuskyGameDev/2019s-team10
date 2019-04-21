@@ -17,6 +17,7 @@ namespace AK
         static const AkUniqueID PLANET_EXPLODING = 785477600U;
         static const AkUniqueID PLANET_JUMPING = 123582242U;
         static const AkUniqueID PLANET_OVER_OBJECT = 2617672262U;
+        static const AkUniqueID SPACE_CRAFT_BEAM = 817424508U;
     } // namespace EVENTS
 
     namespace BANKS
