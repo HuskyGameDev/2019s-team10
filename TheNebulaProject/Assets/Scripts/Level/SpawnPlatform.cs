@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+using UnityEngine.SceneManagement;
+
 public class SpawnPlatform : MonoBehaviour {
     public Transform[] spawnLocations;
     public int prevLocation;
@@ -11,6 +13,8 @@ public class SpawnPlatform : MonoBehaviour {
     //public GameObject[] whatToSpawnPrefab;
     //public GameObject[] WhatToSpawnClone;
     private Vector2 screenBounds;
+    public int numPlatforms;
+    public int goalNumPlatforms;
 
     public float respawnTime = 1.0f;
 
@@ -36,6 +40,18 @@ public class SpawnPlatform : MonoBehaviour {
             cons.transform.localPosition = new Vector2(-0.25f, 0.5f);
         }
         plat.transform.position = new Vector2(screenBounds.x, loc.position.y);
+        numPlatforms++;
+        if(numPlatforms >= goalNumPlatforms)
+        {
+            if((GameObject.Find("Canvas").GetComponent<ScoreScript>().dirt_score >= GameObject.Find("Canvas").GetComponent<ScoreScript>().dirt_max) && 
+                (GameObject.Find("Canvas").GetComponent<ScoreScript>().water_score >= GameObject.Find("Canvas").GetComponent<ScoreScript>().water_max))
+            {
+                SceneManager.LoadScene("WinScreen");
+            } else
+            {
+                SceneManager.LoadScene("LoseScreen");
+            }
+        }
         
     }
     //Returns number between 0 and 5 based on previous platform location

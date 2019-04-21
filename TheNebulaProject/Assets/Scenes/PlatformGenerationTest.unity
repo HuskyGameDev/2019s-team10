@@ -689,6 +689,8 @@ MonoBehaviour:
   - {fileID: 1044468483993716, guid: b368307612cd15d40bb3424f1cbfff87, type: 2}
   - {fileID: 1503426516378992, guid: 468fdeafeb819b44bacf05fc650afc1d, type: 2}
   - {fileID: 1956121786192166, guid: d10f5069020da6d4499ef64f157d1a75, type: 2}
+  numPlatforms: 0
+  goalNumPlatforms: 5
   respawnTime: 1
 --- !u!4 &706255272
 Transform:
@@ -1820,6 +1822,8 @@ MonoBehaviour:
   dirt_text: {fileID: 1550843087}
   water_max: 5
   dirt_max: 5
+  water_score: 0
+  dirt_score: 0
 --- !u!114 &1845544429
 MonoBehaviour:
   m_ObjectHideFlags: 0

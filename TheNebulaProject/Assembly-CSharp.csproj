@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\DirtScript.cs" />
     <Compile Include="Assets\Scripts\InputManager.cs" />
     <Compile Include="Assets\Scripts\Level\BGScroller.cs" />
+    <Compile Include="Assets\Scripts\Level\EndGame.cs" />
     <Compile Include="Assets\Scripts\Level\PlatformMover.cs" />
     <Compile Include="Assets\Scripts\Level\SpawnPlatform.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
