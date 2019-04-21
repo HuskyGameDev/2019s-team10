@@ -19,9 +19,7 @@ public class PlayerController : MonoBehaviour
 
     //platform transform
     private Vector3 platPos = Vector3.zero;
-    private float platSpd;
     public GameObject platformGenerator;
-    private float appliedSpeed = 0;
 
     //animator
     private Animator anim;
@@ -34,9 +32,6 @@ public class PlayerController : MonoBehaviour
         rb2d = GetComponent<Rigidbody2D>();
         rad = GetComponent<CircleCollider2D>().radius;
         anim = GetComponent<Animator>();
-
-        //get speed of platforms generated in level
-        platSpd = platformGenerator.GetComponent<SpawnPlatform>().platform.GetComponent<PlatformMover>().moveSpeed;
         
     }
 
@@ -45,10 +40,10 @@ public class PlayerController : MonoBehaviour
     {
         //Store the current horizontal input in the float moveHorizontal.
         float moveHorizontal = Input.GetAxis("Horizontal");
-        rb2d.velocity = (rb2d.velocity * Vector2.up) + (new Vector2(moveHorizontal, 0) * speed) - (new Vector2(appliedSpeed,0));
+        rb2d.velocity = (rb2d.velocity * Vector2.up) + (new Vector2(moveHorizontal, 0) * speed);
 
         //makes player jump
-        if (Input.GetKeyDown("space") && (gameObject.transform.position.y - rad) > platPos.y)
+        if (Input.GetKeyDown("space") && (gameObject.transform.position.y - .9f*rad) > platPos.y)
         {
             Debug.Log(grounded);
             //can only jump if grounded
@@ -81,12 +76,6 @@ public class PlayerController : MonoBehaviour
         platPos = p.transform.position;
         if ((p.CompareTag("Platform") || p.CompareTag("Ground")) && platPos.y < gameObject.transform.position.y) {
             grounded = true;
-            if (p.CompareTag("Platform")) {
-                //appliedSpeed = platSpd;
-            }
-            else {
-                appliedSpeed = 0;
-            }
         }
         if (p.CompareTag("Bomb")) {
             StartCoroutine(damagedBlinker(iFrameLength));
@@ -117,7 +106,6 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Platform") || collision.gameObject.CompareTag("Ground"))
         {
             grounded = false;
-            appliedSpeed = 0;
         }
     }
 
