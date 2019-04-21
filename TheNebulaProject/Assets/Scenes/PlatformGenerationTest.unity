@@ -834,7 +834,7 @@ Prefab:
     - target: {fileID: 50812206372762058, guid: 8de063c5d7112404ebf0a2b91082e46a,
         type: 2}
       propertyPath: m_Mass
-      value: 100000
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 50812206372762058, guid: 8de063c5d7112404ebf0a2b91082e46a,
         type: 2}
@@ -851,6 +851,21 @@ Prefab:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 6200000, guid: a40aa771ef8104846a64bf93f6a0f957, type: 2}
+    - target: {fileID: 58703829512381822, guid: 8de063c5d7112404ebf0a2b91082e46a,
+        type: 2}
+      propertyPath: m_Offset.x
+      value: -0.008014679
+      objectReference: {fileID: 0}
+    - target: {fileID: 58703829512381822, guid: 8de063c5d7112404ebf0a2b91082e46a,
+        type: 2}
+      propertyPath: m_Offset.y
+      value: -0.04509775
+      objectReference: {fileID: 0}
+    - target: {fileID: 58703829512381822, guid: 8de063c5d7112404ebf0a2b91082e46a,
+        type: 2}
+      propertyPath: m_Radius
+      value: 0.71001554
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8de063c5d7112404ebf0a2b91082e46a, type: 2}
   m_IsPrefabAsset: 0
