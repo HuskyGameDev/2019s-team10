@@ -14,21 +14,23 @@ public class ScoreScript : MonoBehaviour {
     public Text dirt_text;
     public int water_max;
     public int dirt_max;
-    private int water_score = 0;
-    private int dirt_score = 0;
+    public int water_score = 0;
+    public int dirt_score = 0;
     
 
 	// Use this for initialization
 	void Start () {
         WaterTracker.maxValue = water_max;
         DirtTracker.maxValue = dirt_max;
-        LevelProgression.maxValue = LevelEnd.transform.position.x - LevelStart.transform.position.x;
-	}
+        LevelProgression.maxValue = GameObject.Find("PlatformSpawner").GetComponent<SpawnPlatform>().goalNumPlatforms;
+        water_text.GetComponent<Text>().text = water_score + " / " + water_max;
+        dirt_text.GetComponent<Text>().text = dirt_score + " / " + dirt_max;
+    }
 	
 	// Update is called once per frame
 	void Update () {
-        LevelProgression.value = Player.transform.position.x - LevelStart.transform.position.x;
-	}
+        LevelProgression.value = GameObject.Find("PlatformSpawner").GetComponent<SpawnPlatform>().numPlatforms;
+    }
 
     // Update the water score
     public void updateWaterScore(int update)
