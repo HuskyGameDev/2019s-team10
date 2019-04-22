@@ -13,23 +13,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
   - Guid: '{825822FD-BD3B-4407-91E6-8D5689B6268B}'
-    m_lastTimePart2: -1999200207
-    m_lastTimePsrt1: 1342411842
+    m_lastTimePart2: -1999193185
+    m_lastTimePsrt1: -680695023
     ParentPhysicalPath: 
     PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     List: []
   autoPopulateEnabled: 1
   AuxBusWwu:
   - Guid: '{BA893B0E-1C5C-480E-974C-C101E1A5755C}'
-    m_lastTimePart2: -1999200207
-    m_lastTimePsrt1: 1341502360
+    m_lastTimePart2: -1999193185
+    m_lastTimePsrt1: -682668214
     ParentPhysicalPath: 
     PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     List: []
   BankWwu:
   - Guid: '{87E430FF-A2EA-470E-9D6A-99C400596A12}'
-    m_lastTimePart2: -1999195588
-    m_lastTimePsrt1: -533262208
+    m_lastTimePart2: -1999193185
+    m_lastTimePsrt1: -680695023
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List:
@@ -48,8 +48,8 @@ MonoBehaviour:
   defaultPoolSize: 4096
   EventWwu:
   - Guid: '{448B20E3-AD75-483E-ABDD-2CAD1E7F8E5C}'
-    m_lastTimePart2: -1999195588
-    m_lastTimePsrt1: -533113569
+    m_lastTimePart2: -1999193185
+    m_lastTimePsrt1: -684455234
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
     List:
@@ -113,6 +113,8 @@ MonoBehaviour:
   - /TheNebulaProject_WwiseProject
   - /TheNebulaProject_WwiseProject/Events
   - /TheNebulaProject_WwiseProject/Events/Default Work Unit
+  - /TheNebulaProject_WwiseProject/Events/Default Work Unit/Music
+  - /TheNebulaProject_WwiseProject/Events/Default Work Unit/Planet SFX
   language: English(US)
   lowerPoolSize: 2048
   m_lastPopulateTimePart2: 0
@@ -121,30 +123,30 @@ MonoBehaviour:
   preparePoolSize: 0
   RtpcWwu:
   - Guid: '{6534EFBD-9910-4614-A517-CE4688BD4175}'
-    m_lastTimePart2: -1999200207
-    m_lastTimePsrt1: 1341362448
+    m_lastTimePart2: -1999193185
+    m_lastTimePsrt1: -684299003
     ParentPhysicalPath: 
     PhysicalPath: Game Parameters\Default Work Unit.wwu
     List: []
   StateWwu:
   - Guid: '{E3064260-84D4-43C1-B4E6-0899C85ABF9B}'
-    m_lastTimePart2: -1999200207
-    m_lastTimePsrt1: 1342211957
+    m_lastTimePart2: -1999193185
+    m_lastTimePsrt1: -680695023
     ParentPhysicalPath: 
     PhysicalPath: States\Default Work Unit.wwu
     List: []
   streamingPoolSize: 1024
   SwitchWwu:
   - Guid: '{492EF3C4-660F-405B-9A73-0785A2993A77}'
-    m_lastTimePart2: -1999200207
-    m_lastTimePsrt1: 1342281919
+    m_lastTimePart2: -1999193185
+    m_lastTimePsrt1: -680695023
     ParentPhysicalPath: 
     PhysicalPath: Switches\Default Work Unit.wwu
     List: []
   TriggerWwu:
   - Guid: '{9BDA6ABC-9B81-4F83-939F-E4EBC2E1B6F6}'
-    m_lastTimePart2: -1999200207
-    m_lastTimePsrt1: 1342341888
+    m_lastTimePart2: -1999193185
+    m_lastTimePsrt1: -680695023
     ParentPhysicalPath: 
     PhysicalPath: Triggers\Default Work Unit.wwu
     List: []
