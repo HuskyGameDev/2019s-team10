@@ -1,14 +1,24 @@
 Event	ID	Name			Wwise Object Path	Notes
 	123582242	Planet_Jumping			\Default Work Unit\Planet SFX\Planet_Jumping	
+	258110631	Game_Music			\Default Work Unit\Music\Game_Music	
 	785477600	Planet_Exploding			\Default Work Unit\Planet SFX\Planet_Exploding	
 	817424508	Space_Craft_Beam			\Default Work Unit\Planet SFX\Space_Craft_Beam	
+	2226721690	Laser_Zap			\Default Work Unit\Planet SFX\Laser_Zap	
+	2325078882	Game_Music_Stop			\Default Work Unit\Music\Game_Music_Stop	
 	2617672262	Planet_Over_Object			\Default Work Unit\Planet SFX\Planet_Over_Object	
+	2875134843	Rogue_Planet_Collision			\Default Work Unit\Planet SFX\Rogue_Planet_Collision	
+	3487878355	Menu_Music_Stop			\Default Work Unit\Music\Menu_Music_Stop	
 	4055567060	Menu_Music			\Default Work Unit\Music\Menu_Music	
+	4223899560	Massive_Final_Explosion			\Default Work Unit\Planet SFX\Massive_Final_Explosion	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	201734828	Laser_Zap	C:\Users\scalvert\Documents\GitHub\2019s-team10\TheNebulaProject\TheNebulaProject_WwiseProject\.cache\Windows\SFX\Laser Zap_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player SFX\Laser_Zap		785520
+	377611798	Rogue Planet Collision	C:\Users\scalvert\Documents\GitHub\2019s-team10\TheNebulaProject\TheNebulaProject_WwiseProject\.cache\Windows\SFX\Rogue Planet Collision_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player SFX\Rogue Planet Collision		1307760
 	392835460	Main Menu Music	C:\Users\scalvert\Documents\GitHub\2019s-team10\TheNebulaProject\TheNebulaProject_WwiseProject\.cache\Windows\SFX\Main Menu_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Main Menu Music		8387696
 	644782588	Bomb_Explosion	C:\Users\scalvert\Documents\GitHub\2019s-team10\TheNebulaProject\TheNebulaProject_WwiseProject\.cache\Windows\SFX\Bomb Explosion_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player SFX\Bomb_Explosion		1073244
 	889417799	Water_Jet	C:\Users\scalvert\Documents\GitHub\2019s-team10\TheNebulaProject\TheNebulaProject_WwiseProject\.cache\Windows\SFX\Water Jet_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player SFX\Water_Jet		523376
+	919843183	Final Explosion	C:\Users\scalvert\Documents\GitHub\2019s-team10\TheNebulaProject\TheNebulaProject_WwiseProject\.cache\Windows\SFX\Massive Explosion_Final Explosion_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player SFX\Final Explosion		2880624
+	982192399	Game Music	C:\Users\scalvert\Documents\GitHub\2019s-team10\TheNebulaProject\TheNebulaProject_WwiseProject\.cache\Windows\SFX\Game Music_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Game Music		5644944
 	1034132203	Beam Womp	C:\Users\scalvert\Documents\GitHub\2019s-team10\TheNebulaProject\TheNebulaProject_WwiseProject\.cache\Windows\SFX\Beam Womp Initial_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player SFX\Beam Womp		1411344
 	1039854775	Rolling_Over_Object	C:\Users\scalvert\Documents\GitHub\2019s-team10\TheNebulaProject\TheNebulaProject_WwiseProject\.cache\Windows\SFX\Planet Rolling Over Item SFX_1C9C67B2_600C958E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player SFX\Rolling_Over_Object		1585296
 
