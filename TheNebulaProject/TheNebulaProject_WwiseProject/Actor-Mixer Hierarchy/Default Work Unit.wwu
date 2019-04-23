@@ -77,6 +77,82 @@
 								<ActiveSource Name="Bomb Explosion" ID="{3957E2BE-C614-48F9-9249-4A92EBDBC64F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Beam Womp" ID="{EB2FAB2A-CF6C-4F82-A323-350C1AC93DCC}" ShortID="105859543">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6C11D6D7-678F-427B-83E5-501BED372332}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA893B0E-1C5C-480E-974C-C101E1A5755C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Beam Womp Initial" ID="{FF47F03E-A998-4F95-A543-AC9574B3E06C}" ShortID="1034132203">
+									<Language>SFX</Language>
+									<AudioFile>Beam Womp Initial.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Beam Womp Initial" ID="{FF47F03E-A998-4F95-A543-AC9574B3E06C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Laser_Zap" ID="{D7D3C03C-F3E3-4BF4-BC36-602F1B7BBACB}" ShortID="152666909">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6C11D6D7-678F-427B-83E5-501BED372332}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA893B0E-1C5C-480E-974C-C101E1A5755C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Laser Zap" ID="{51853462-B745-42E9-89C0-DEA4C38E241B}" ShortID="201734828">
+									<Language>SFX</Language>
+									<AudioFile>Laser Zap.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Laser Zap" ID="{51853462-B745-42E9-89C0-DEA4C38E241B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Final Explosion" ID="{B8288D32-699D-4373-BA5C-3F4E2EC6F03A}" ShortID="75113537">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6C11D6D7-678F-427B-83E5-501BED372332}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA893B0E-1C5C-480E-974C-C101E1A5755C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Massive Explosion_Final Explosion" ID="{D43FFD54-B572-4CFF-BB99-1EBF2E4D5810}" ShortID="919843183">
+									<Language>SFX</Language>
+									<AudioFile>Massive Explosion_Final Explosion.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Massive Explosion_Final Explosion" ID="{D43FFD54-B572-4CFF-BB99-1EBF2E4D5810}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Rogue Planet Collision" ID="{9E79AFF9-FC1D-4603-A13B-D0CF6BBAE5C6}" ShortID="177463661">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6C11D6D7-678F-427B-83E5-501BED372332}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA893B0E-1C5C-480E-974C-C101E1A5755C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Rogue Planet Collision" ID="{F6EAB65C-867E-44BD-B5ED-F12EC052648A}" ShortID="377611798">
+									<Language>SFX</Language>
+									<AudioFile>Rogue Planet Collision.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Rogue Planet Collision" ID="{F6EAB65C-867E-44BD-B5ED-F12EC052648A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music" ID="{2E7DD916-4ED5-4696-B8ED-17E089C85F38}" ShortID="245346319">
@@ -98,6 +174,25 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="Main Menu" ID="{CAC3DDBB-CFF6-461D-9140-A6FE344C89C1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Game Music" ID="{CECB9EBC-75D7-45C3-BB25-2526B1C7C881}" ShortID="1024787373">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6C11D6D7-678F-427B-83E5-501BED372332}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA893B0E-1C5C-480E-974C-C101E1A5755C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Game Music" ID="{0B72AAC8-9D48-4FC1-AE7D-B11028904AEB}" ShortID="982192399">
+									<Language>SFX</Language>
+									<AudioFile>Game Music.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Game Music" ID="{0B72AAC8-9D48-4FC1-AE7D-B11028904AEB}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

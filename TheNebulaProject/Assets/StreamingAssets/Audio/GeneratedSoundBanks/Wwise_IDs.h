@@ -13,10 +13,17 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID GAME_MUSIC = 258110631U;
+        static const AkUniqueID GAME_MUSIC_STOP = 2325078882U;
+        static const AkUniqueID LASER_ZAP = 2226721690U;
+        static const AkUniqueID MASSIVE_FINAL_EXPLOSION = 4223899560U;
         static const AkUniqueID MENU_MUSIC = 4055567060U;
+        static const AkUniqueID MENU_MUSIC_STOP = 3487878355U;
         static const AkUniqueID PLANET_EXPLODING = 785477600U;
         static const AkUniqueID PLANET_JUMPING = 123582242U;
         static const AkUniqueID PLANET_OVER_OBJECT = 2617672262U;
+        static const AkUniqueID ROGUE_PLANET_COLLISION = 2875134843U;
+        static const AkUniqueID SPACE_CRAFT_BEAM = 817424508U;
     } // namespace EVENTS
 
     namespace BANKS

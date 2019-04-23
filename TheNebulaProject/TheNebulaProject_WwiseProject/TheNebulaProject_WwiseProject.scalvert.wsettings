@@ -4,10 +4,18 @@
 		<UserProjectSettings Name="" ID="{0AF41605-DAF3-4951-9F42-4787B8CA14D9}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\scalvert\Downloads"/>
+				<Property Name="Event Action List\{1D02A8A3-2561-4D1F-9336-7E92088CA4F4}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{1D5D73D8-E97E-40E9-BBC8-BF47A0E78183}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2644E86F-6602-4F34-A61C-82217404E342}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{2CE479C4-5F27-4945-87A3-4F73C78C70EA}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{39EA357A-DE7B-4126-9FA0-88DC5BD00967}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4D305E0C-2452-41AA-8783-E403B0179089}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{65E850A3-DAA6-474F-B082-6F8516758497}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{74D01EA3-7F88-4D1B-A047-9C3D15F7BABF}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{BBD02A4E-9111-4518-A799-DB68F672B82D}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{BDBCFCB2-0C18-4F78-83F1-FBA84266DF78}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{CC42D9B9-E3D2-4495-8864-B59F1E26302A}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{D1325679-98A9-48C4-AC48-B6219AF8C39C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{DDE34053-BB27-4519-8D9E-05D0E138CDFF}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
@@ -28,7 +36,7 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="105yZUaaz0yChpak3Nsrg3pzZdH5oI1IiNgaentXf3s="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="8d8KiVOmAEuZz2zu0TwU5A=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="3LrRS62ziEmTUXHGAQ96ZwH/////////AHgyilHVrUiZejpgh8YGdwH/////////"/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="AHgyilHVrUiZejpgh8YGdwH/////////3LrRS62ziEmTUXHGAQ96ZwH/////////"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="Mixing Desk\LastSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
@@ -55,8 +63,8 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="gExOBzIScUiPu7eLk9Y8NZnTXD4Z9flKmu9Wc61iRLY="/>
-				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="4yCLRHWtPkir3SytHn+OXA=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="Ftl9LtVOlka47RfgichfOIBMTgcyEnFIj7u3i5PWPDWZ01w+GfX5SprvVnOtYkS2"/>
+				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="ssbzj4AjiECCxKsXeaA0U+Mgi0R1rT5Iq90srR5/jlyCNrHXAPDPT4fi22wsX0/3"/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value="/zDkh+qiDkedapnEAFlqEg=="/>

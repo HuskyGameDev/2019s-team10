@@ -21,12 +21,27 @@
 			<ShortName>Nebula_Project</ShortName>
 			<Path>Nebula_Project.bnk</Path>
 			<IncludedEvents>
+				<Event Id="258110631" Name="Game_Music" ObjectPath="\Events\Default Work Unit\Music\Game_Music"/>
+				<Event Id="2325078882" Name="Game_Music_Stop" ObjectPath="\Events\Default Work Unit\Music\Game_Music_Stop" MaxAttenuation="0.000000"/>
+				<Event Id="2226721690" Name="Laser_Zap" ObjectPath="\Events\Default Work Unit\Planet SFX\Laser_Zap"/>
+				<Event Id="4223899560" Name="Massive_Final_Explosion" ObjectPath="\Events\Default Work Unit\Planet SFX\Massive_Final_Explosion"/>
 				<Event Id="4055567060" Name="Menu_Music" ObjectPath="\Events\Default Work Unit\Music\Menu_Music"/>
+				<Event Id="3487878355" Name="Menu_Music_Stop" ObjectPath="\Events\Default Work Unit\Music\Menu_Music_Stop" MaxAttenuation="0.000000"/>
 				<Event Id="785477600" Name="Planet_Exploding" ObjectPath="\Events\Default Work Unit\Planet SFX\Planet_Exploding"/>
 				<Event Id="123582242" Name="Planet_Jumping" ObjectPath="\Events\Default Work Unit\Planet SFX\Planet_Jumping"/>
 				<Event Id="2617672262" Name="Planet_Over_Object" ObjectPath="\Events\Default Work Unit\Planet SFX\Planet_Over_Object"/>
+				<Event Id="2875134843" Name="Rogue_Planet_Collision" ObjectPath="\Events\Default Work Unit\Planet SFX\Rogue_Planet_Collision"/>
+				<Event Id="817424508" Name="Space_Craft_Beam" ObjectPath="\Events\Default Work Unit\Planet SFX\Space_Craft_Beam"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="201734828" Language="SFX">
+					<ShortName>Laser Zap.wav</ShortName>
+					<Path>SFX\Laser Zap_1C9C67B2.wem</Path>
+				</File>
+				<File Id="377611798" Language="SFX">
+					<ShortName>Rogue Planet Collision.wav</ShortName>
+					<Path>SFX\Rogue Planet Collision_1C9C67B2.wem</Path>
+				</File>
 				<File Id="392835460" Language="SFX">
 					<ShortName>Main Menu.wav</ShortName>
 					<Path>SFX\Main Menu_1C9C67B2.wem</Path>
@@ -38,6 +53,18 @@
 				<File Id="889417799" Language="SFX">
 					<ShortName>Water Jet.wav</ShortName>
 					<Path>SFX\Water Jet_1C9C67B2.wem</Path>
+				</File>
+				<File Id="919843183" Language="SFX">
+					<ShortName>Massive Explosion_Final Explosion.wav</ShortName>
+					<Path>SFX\Massive Explosion_Final Explosion_1C9C67B2.wem</Path>
+				</File>
+				<File Id="982192399" Language="SFX">
+					<ShortName>Game Music.wav</ShortName>
+					<Path>SFX\Game Music_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1034132203" Language="SFX">
+					<ShortName>Beam Womp Initial.wav</ShortName>
+					<Path>SFX\Beam Womp Initial_1C9C67B2.wem</Path>
 				</File>
 				<File Id="1039854775" Language="SFX">
 					<ShortName>Planet Rolling Over Item SFX.wav</ShortName>
