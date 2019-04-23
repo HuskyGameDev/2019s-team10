@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PauseMenu : MonoBehaviour {
+/*public class PauseMenu : MonoBehaviour {
     private bool paused = false;
     private bool pausedPressed = false;
     private InputManager input;
@@ -69,4 +69,4 @@ public class PauseMenu : MonoBehaviour {
         Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
-}
+}*/

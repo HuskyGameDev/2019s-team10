@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InputManager : MonoBehaviour {
+/*public class InputManager : MonoBehaviour {
 	PauseMenu pause;
 
 	public void Start(){
@@ -33,4 +33,4 @@ public class InputManager : MonoBehaviour {
 		return Input.GetAxis(name);
 	}
 
-}
+}*/
