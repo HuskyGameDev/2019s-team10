@@ -157,7 +157,12 @@
 				</Folder>
 				<Folder Name="Music" ID="{2E7DD916-4ED5-4696-B8ED-17E089C85F38}" ShortID="245346319">
 					<ChildrenList>
-						<Sound Name="Main Menu Music" ID="{47AAA034-A146-4609-BA44-306643BC1A4B}" ShortID="932090972">
+						<RandomSequenceContainer Name="MenuMusicLoop" ID="{4E507433-2868-4048-BA86-F1E07B767E15}" ShortID="1030959033">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6C11D6D7-678F-427B-83E5-501BED372332}"/>
@@ -167,16 +172,36 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Main Menu" ID="{CAC3DDBB-CFF6-461D-9140-A6FE344C89C1}" ShortID="392835460">
-									<Language>SFX</Language>
-									<AudioFile>Main Menu.wav</AudioFile>
-								</AudioFileSource>
+								<Sound Name="Main Menu Music" ID="{47AAA034-A146-4609-BA44-306643BC1A4B}" ShortID="932090972">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6C11D6D7-678F-427B-83E5-501BED372332}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA893B0E-1C5C-480E-974C-C101E1A5755C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Main Menu" ID="{CAC3DDBB-CFF6-461D-9140-A6FE344C89C1}" ShortID="392835460">
+											<Language>SFX</Language>
+											<AudioFile>Main Menu.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Main Menu" ID="{CAC3DDBB-CFF6-461D-9140-A6FE344C89C1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Main Menu" ID="{CAC3DDBB-CFF6-461D-9140-A6FE344C89C1}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Game Music" ID="{CECB9EBC-75D7-45C3-BB25-2526B1C7C881}" ShortID="1024787373">
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="GameMusicLoop" ID="{6530B46B-5E45-4EFC-82B0-F6D302084106}" ShortID="669035409">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6C11D6D7-678F-427B-83E5-501BED372332}"/>
@@ -186,15 +211,30 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Game Music" ID="{0B72AAC8-9D48-4FC1-AE7D-B11028904AEB}" ShortID="982192399">
-									<Language>SFX</Language>
-									<AudioFile>Game Music.wav</AudioFile>
-								</AudioFileSource>
+								<Sound Name="Game Music" ID="{CECB9EBC-75D7-45C3-BB25-2526B1C7C881}" ShortID="1024787373">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6C11D6D7-678F-427B-83E5-501BED372332}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BA893B0E-1C5C-480E-974C-C101E1A5755C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Game Music" ID="{0B72AAC8-9D48-4FC1-AE7D-B11028904AEB}" ShortID="982192399">
+											<Language>SFX</Language>
+											<AudioFile>Game Music.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Game Music" ID="{0B72AAC8-9D48-4FC1-AE7D-B11028904AEB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Game Music" ID="{0B72AAC8-9D48-4FC1-AE7D-B11028904AEB}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

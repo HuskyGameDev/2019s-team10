@@ -28,8 +28,8 @@ MonoBehaviour:
     List: []
   BankWwu:
   - Guid: '{87E430FF-A2EA-470E-9D6A-99C400596A12}'
-    m_lastTimePart2: -1999193185
-    m_lastTimePsrt1: -680695023
+    m_lastTimePart2: -1999189972
+    m_lastTimePsrt1: 1667667102
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List:
@@ -48,11 +48,67 @@ MonoBehaviour:
   defaultPoolSize: 4096
   EventWwu:
   - Guid: '{448B20E3-AD75-483E-ABDD-2CAD1E7F8E5C}'
-    m_lastTimePart2: -1999193185
-    m_lastTimePsrt1: -684455234
+    m_lastTimePart2: -1999189550
+    m_lastTimePsrt1: -434089311
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
     List:
+    - Guid: 7a35ea397bde26419fa088dc5bd00967
+      ID: 258110631
+      Name: Game_Music
+      Path: Default Work Unit\Music\Game_Music
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 4
+      - ElementName: Game_Music
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: b9d942ccd2e395448864b59f1e26302a
+      ID: -1969888414
+      Name: Game_Music_Stop
+      Path: Default Work Unit\Music\Game_Music_Stop
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 4
+      - ElementName: Game_Music_Stop
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 795632d1a998c448ac48b6219af8c39c
+      ID: -2068245606
+      Name: Laser_Zap
+      Path: Default Work Unit\Planet SFX\Laser_Zap
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Planet SFX
+        ObjectType: 4
+      - ElementName: Laser_Zap
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: b2fcbcbd180c784f83f1fba84266df78
+      ID: -71067736
+      Name: Massive_Final_Explosion
+      Path: Default Work Unit\Planet SFX\Massive_Final_Explosion
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Planet SFX
+        ObjectType: 4
+      - ElementName: Massive_Final_Explosion
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - Guid: c479e42c275f454987a34f73c78c70ea
       ID: -239400236
       Name: Menu_Music
@@ -63,6 +119,20 @@ MonoBehaviour:
       - ElementName: Music
         ObjectType: 4
       - ElementName: Menu_Music
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: a31ed074887f1b4da0479c3d15f7babf
+      ID: -807088941
+      Name: Menu_Music_Stop
+      Path: Default Work Unit\Music\Menu_Music_Stop
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 4
+      - ElementName: Menu_Music_Stop
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0
@@ -105,6 +175,34 @@ MonoBehaviour:
       - ElementName: Planet SFX
         ObjectType: 4
       - ElementName: Planet_Over_Object
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: d8735d1d7ee9e940bbc8bf47a0e78183
+      ID: -1419832453
+      Name: Rogue_Planet_Collision
+      Path: Default Work Unit\Planet SFX\Rogue_Planet_Collision
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Planet SFX
+        ObjectType: 4
+      - ElementName: Rogue_Planet_Collision
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: a3a8021d61251f4d93367e92088ca4f4
+      ID: 817424508
+      Name: Space_Craft_Beam
+      Path: Default Work Unit\Planet SFX\Space_Craft_Beam
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Planet SFX
+        ObjectType: 4
+      - ElementName: Space_Craft_Beam
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0
