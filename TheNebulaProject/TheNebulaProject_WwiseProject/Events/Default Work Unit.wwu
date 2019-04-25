@@ -119,6 +119,39 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{3CFDB517-D069-4936-829A-B6731922CBAD}" ShortID="222712407">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="47.548"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Main Menu Music" ID="{47AAA034-A146-4609-BA44-306643BC1A4B}" WorkUnitID="{3E5CD399-F519-4AF9-9AEF-5673AD6244B6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1C0AF345-EC30-441B-A66D-1F6EC5A64C3D}" ShortID="299423556">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="95.096"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Main Menu Music" ID="{47AAA034-A146-4609-BA44-306643BC1A4B}" WorkUnitID="{3E5CD399-F519-4AF9-9AEF-5673AD6244B6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{10D4FE85-38EA-43C5-8B98-36425255C325}" ShortID="873892610">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="142.644"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Main Menu Music" ID="{47AAA034-A146-4609-BA44-306643BC1A4B}" WorkUnitID="{3E5CD399-F519-4AF9-9AEF-5673AD6244B6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Menu_Music_Stop" ID="{74D01EA3-7F88-4D1B-A047-9C3D15F7BABF}">
@@ -140,6 +173,39 @@
 								<Action Name="" ID="{91ED032F-72A6-4720-80F8-21AC2BDE026C}" ShortID="472893408">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Game Music" ID="{CECB9EBC-75D7-45C3-BB25-2526B1C7C881}" WorkUnitID="{3E5CD399-F519-4AF9-9AEF-5673AD6244B6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1F378024-6AAC-4972-8633-87FB2947D971}" ShortID="1031638120">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="32"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Game Music" ID="{CECB9EBC-75D7-45C3-BB25-2526B1C7C881}" WorkUnitID="{3E5CD399-F519-4AF9-9AEF-5673AD6244B6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B27831CE-9033-4F2C-AA50-1C732415EE73}" ShortID="544891064">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="64"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Game Music" ID="{CECB9EBC-75D7-45C3-BB25-2526B1C7C881}" WorkUnitID="{3E5CD399-F519-4AF9-9AEF-5673AD6244B6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0BB3EBAD-4E66-4FB7-A681-39F7FCB1BD63}" ShortID="682316340">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="96"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">

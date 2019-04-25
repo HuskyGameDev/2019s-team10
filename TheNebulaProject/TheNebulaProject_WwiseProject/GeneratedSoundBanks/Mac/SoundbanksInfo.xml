@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="128">
 	<RootPaths>
-		<ProjectRoot>C:\Users\scalvert\Documents\GitHub\2019s-team10\TheNebulaProject\TheNebulaProject_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\scalvert\Documents\GitHub\2019s-team10\TheNebulaProject\TheNebulaProject_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\scalvert\Documents\GitHub\2019s-team10\TheNebulaProject\TheNebulaProject_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\dcarrara\Documents\GitHub\2019s-team10\TheNebulaProject\TheNebulaProject_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\dcarrara\Documents\GitHub\2019s-team10\TheNebulaProject\TheNebulaProject_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\dcarrara\Documents\GitHub\2019s-team10\TheNebulaProject\TheNebulaProject_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\scalvert\Documents\GitHub\2019s-team10\TheNebulaProject\TheNebulaProject_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\dcarrara\Documents\GitHub\2019s-team10\TheNebulaProject\TheNebulaProject_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -44,7 +44,7 @@
 				</File>
 				<File Id="392835460" Language="SFX">
 					<ShortName>Main Menu.wav</ShortName>
-					<Path>SFX\Main Menu_1C9C67B2.wem</Path>
+					<Path>SFX\Main Menu_F17FB28C.wem</Path>
 				</File>
 				<File Id="644782588" Language="SFX">
 					<ShortName>Bomb Explosion.wav</ShortName>
@@ -60,7 +60,7 @@
 				</File>
 				<File Id="982192399" Language="SFX">
 					<ShortName>Game Music.wav</ShortName>
-					<Path>SFX\Game Music_1C9C67B2.wem</Path>
+					<Path>SFX\Game Music_F17FB28C.wem</Path>
 				</File>
 				<File Id="1034132203" Language="SFX">
 					<ShortName>Beam Womp Initial.wav</ShortName>
